@@ -40,6 +40,5 @@ I appreciate your interest in contributing to my project. If you find any issues
 
 Thank you for visiting my personal portfolio website! If you have any questions or would like to collaborate, feel free to reach out.
 
-[James Kofi Myers]
-[Your Email Address]
-[Optional: Link to Your Personal Website or LinkedIn Profile]
+<p>James Kofi Myers</p>
+<p>myersjames91@gmail.com</p>
