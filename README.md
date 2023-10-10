@@ -20,7 +20,7 @@ In the 'About Me' section, you can find more detailed information about my backg
 
 ### 3. Portfolio
 
-The portfolio section showcases some of my notable projects. Each project comes with a description and, in some cases, links to the live demo or the project repository.
+The portfolio section showcases some of my notable projects. Each project comes with a description and links to the live demo or the project repository.
 
 ### 4. Contact Me
 
@@ -36,14 +36,10 @@ You can get in touch with me through the 'Contact Me' section. Fill out the form
 
 I appreciate your interest in contributing to my project. If you find any issues or have suggestions for improvement, please feel free to open an issue or create a pull request.
 
-## License
-
-This project is licensed under the [Your License] - see the [LICENSE.md](LICENSE.md) file for details.
-
 ---
 
 Thank you for visiting my personal portfolio website! If you have any questions or would like to collaborate, feel free to reach out.
 
-[Your Name]
+[James Kofi Myers]
 [Your Email Address]
 [Optional: Link to Your Personal Website or LinkedIn Profile]
