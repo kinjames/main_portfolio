@@ -32,9 +32,6 @@ You can get in touch with me through the 'Contact Me' section. Fill out the form
 2. Navigate to the project directory: `cd [project folder]`
 3. Open `index.html` in your preferred web browser to view the website locally.
 
-## Contributing
-
-I appreciate your interest in contributing to my project. If you find any issues or have suggestions for improvement, please feel free to open an issue or create a pull request.
 
 ---
 
