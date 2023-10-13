@@ -5,6 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -154,4 +155,10 @@ header .home .social-icons a:hover {
   transform: scale(1.2);
   background-color: #2a61b3;
   color: #FFFFFF;
+}
+
+.about {
+  border: 2px solid red;
+  height: 100vh;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
