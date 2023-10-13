@@ -1,5 +1,19 @@
 .about {
-    border: 2px solid red;
+    // border: 2px solid red;
     height: 100vh;
-    width: 100%;
+    width: 1440px;
+    margin: 0 auto;
+
+    .section-header__line {
+        margin-top: 2rem;
+        h2 {
+           font-size: 2rem;
+           font-weight: 700;
+        }
+        .line {
+            width: 150px;
+            height: 4px;
+            background-color: #2a61b3;
+        }
+    }
 }
