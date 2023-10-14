@@ -3,9 +3,18 @@
     height: 100vh;
     width: 1440px;
     margin: 0 auto;
+    padding: 2rem 0;
+
+    @include breakpoint-down(small) {
+        width: 100%;
+        height: 100%;
+    }
 
     .section-header__line {
-        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
         h2 {
            font-size: 2rem;
            font-weight: 700;
