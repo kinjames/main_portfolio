@@ -3,7 +3,7 @@
     width: 1440px;
     border: 1px solid red;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
 
     @include breakpoint-down(small) {
         width: 100%;

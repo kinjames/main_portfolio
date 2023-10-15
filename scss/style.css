@@ -164,7 +164,7 @@ header .home .social-icons a:hover {
   width: 1440px;
   border: 1px solid red;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
 }
 @media (max-width: 39.9375em) {
   .about {
