@@ -66,6 +66,18 @@ h2 {
   background-color: #2a61b3;
 }
 
+.container {
+  height: 100%;
+  width: 1440px;
+  margin: 0 auto;
+}
+@media (max-width: 39.9375em) {
+  .container {
+    width: 100%;
+    padding-inline: 0.875rem;
+  }
+}
+
 .nav-items {
   position: fixed;
   display: flex;
@@ -194,9 +206,6 @@ header .home .social-icons a:hover {
 }
 
 .about {
-  height: 100%;
-  width: 1440px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 3.5rem;
@@ -413,4 +422,16 @@ header .home .social-icons a:hover {
   .about .skills-certification-section .certification .certification-list .certification .certificate-organisation {
     font-size: 1.1rem;
   }
+}
+
+.portfolio {
+  height: 100vh;
+  border: 2px solid black;
+  padding: 3rem 0;
+}
+
+.contact {
+  height: 100vh;
+  border: 2px solid black;
+  padding: 3rem 0;
 }/*# sourceMappingURL=style.css.map */

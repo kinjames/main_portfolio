@@ -66,3 +66,15 @@ h2 {
     background-color: #2a61b3;
   }
 }
+
+.container {
+  height: 100%;
+  width: 1440px;
+  //   border: 1px solid red;
+  margin: 0 auto;
+
+  @include breakpoint-down(small) {
+    width: 100%;
+    padding-inline: 0.875rem;
+  }
+}
