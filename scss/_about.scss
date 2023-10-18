@@ -34,7 +34,7 @@
 
     .my-image {
       width: 30%;
-      border: 2px solid red;
+      border: 2px solid black;
       height: 100%;
 
       @include breakpoint-down(small) {

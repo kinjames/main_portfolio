@@ -228,7 +228,7 @@ header .home .social-icons a:hover {
 }
 .about .image-details .my-image {
   width: 30%;
-  border: 2px solid red;
+  border: 2px solid black;
   height: 100%;
 }
 @media (max-width: 39.9375em) {
