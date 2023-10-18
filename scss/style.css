@@ -50,6 +50,22 @@ h2 {
   }
 }
 
+.section-header__line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-header__line h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.section-header__line .line {
+  width: 120px;
+  height: 4px;
+  background-color: #2a61b3;
+}
+
 .nav-items {
   position: fixed;
   display: flex;
@@ -193,27 +209,13 @@ header .home .social-icons a:hover {
     height: 100%;
   }
 }
-.about .section-header__line {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.about .section-header__line h2 {
-  font-size: 2rem;
-  font-weight: 700;
-}
-.about .section-header__line .line {
-  width: 120px;
-  height: 4px;
-  background-color: #2a61b3;
-}
 .about .about-me-text {
   font-size: 18px;
   text-align: center;
 }
 .about .image-details {
   width: 100%;
+  border: 2px solid blue;
   height: 35vh;
 }
 .about .skills-certification-section {
