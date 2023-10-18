@@ -21,8 +21,36 @@
 
   .image-details {
     width: 100%;
-    border: 2px solid blue;
+    // border: 2px solid blue;
     height: 35vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include breakpoint-down(small) {
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .my-image {
+      width: 30%;
+      border: 2px solid red;
+      height: 100%;
+
+      @include breakpoint-down(small) {
+        width: 30vh;
+      }
+    }
+
+    .other-details {
+      width: 60%;
+      height: 100%;
+      border: 2px solid black;
+
+      @include breakpoint-down(small) {
+        width: 30vh;
+      }
+    }
   }
 
   .skills-certification-section {

@@ -215,8 +215,36 @@ header .home .social-icons a:hover {
 }
 .about .image-details {
   width: 100%;
-  border: 2px solid blue;
   height: 35vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 39.9375em) {
+  .about .image-details {
+    flex-direction: column;
+    height: 100%;
+  }
+}
+.about .image-details .my-image {
+  width: 30%;
+  border: 2px solid red;
+  height: 100%;
+}
+@media (max-width: 39.9375em) {
+  .about .image-details .my-image {
+    width: 30vh;
+  }
+}
+.about .image-details .other-details {
+  width: 60%;
+  height: 100%;
+  border: 2px solid black;
+}
+@media (max-width: 39.9375em) {
+  .about .image-details .other-details {
+    width: 30vh;
+  }
 }
 .about .skills-certification-section {
   width: 100%;
