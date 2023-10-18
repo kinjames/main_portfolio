@@ -426,12 +426,11 @@ header .home .social-icons a:hover {
 
 .portfolio {
   height: 100vh;
-  border: 2px solid black;
   padding: 3rem 0;
+  background-color: #f3f5f7;
 }
 
 .contact {
   height: 100vh;
-  border: 2px solid black;
   padding: 3rem 0;
 }/*# sourceMappingURL=style.css.map */
