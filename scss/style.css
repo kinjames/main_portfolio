@@ -429,6 +429,11 @@ header .home .social-icons a:hover {
   padding: 3rem 0;
   background-color: #f3f5f7;
 }
+.portfolio-brief-text {
+  margin-top: 2.5rem;
+  text-align: center;
+  font-size: 18px;
+}
 
 .contact {
   height: 100vh;

@@ -2,4 +2,10 @@
   height: 100vh;
   padding: 3rem 0;
   background-color: #f3f5f7;
+
+  &-brief-text {
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 18px;
+  }
 }
