@@ -7,5 +7,10 @@
     margin-top: 2.5rem;
     text-align: center;
     font-size: 18px;
+
+    @include breakpoint-down(small) {
+      width: 100%;
+      padding-inline: 0.875rem;
+    }
   }
 }
