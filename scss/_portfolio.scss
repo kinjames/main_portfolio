@@ -1,5 +1,5 @@
 .portfolio {
-  height: 100vh;
+  height: 100%;
   padding: 3rem 0;
   background-color: #f3f5f7;
 
@@ -11,6 +11,18 @@
     @include breakpoint-down(small) {
       width: 100%;
       padding-inline: 0.875rem;
+    }
+  }
+
+  &-projects {
+    margin-top: 3rem;
+    .project {
+      width: 450px;
+      height: 500px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      padding: 0.5rem;
     }
   }
 }
