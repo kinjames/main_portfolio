@@ -444,6 +444,7 @@ header .home .social-icons a:hover {
   margin-top: 3rem;
 }
 .portfolio-projects .project {
+  background-image: url("../images/ecommerce.jpg");
   width: 450px;
   height: 500px;
   background-color: white;
