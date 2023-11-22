@@ -73,6 +73,10 @@ h2 {
   //   border: 1px solid red;
   margin: 0 auto;
 
+  @include breakpoint-down(medium) {
+    width: 80%;
+  }
+
   @include breakpoint-down(small) {
     width: 100%;
     padding-inline: 0.875rem;
