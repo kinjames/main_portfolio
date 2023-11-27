@@ -52,6 +52,12 @@
         }
       }
 
+      &-title {
+        margin-top: 0.7rem;
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
+
       @include breakpoint-down(medium) {
         width: 100%;
       }
