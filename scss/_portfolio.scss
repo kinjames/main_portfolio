@@ -58,6 +58,19 @@
         font-weight: 600;
       }
 
+      &-languages {
+        font-weight: 500;
+        margin-bottom: 0.875rem;
+      }
+
+      &-links {
+        border: 2px solid red;
+      }
+
+      &-brief-text {
+        font-size: 0.875rem;
+      }
+
       @include breakpoint-down(medium) {
         width: 100%;
       }
