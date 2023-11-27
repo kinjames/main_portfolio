@@ -513,11 +513,22 @@ header .home .social-icons a:hover {
   font-weight: 500;
   margin-bottom: 0.875rem;
 }
-.portfolio-projects .project-links {
-  border: 2px solid red;
-}
 .portfolio-projects .project-brief-text {
   font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+.portfolio-projects .project-links {
+  display: flex;
+  gap: 1rem;
+}
+.portfolio-projects .project-links a {
+  height: 35px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid green;
 }
 @media (max-width: 63.9375em) {
   .portfolio-projects .project {

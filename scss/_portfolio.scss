@@ -63,12 +63,24 @@
         margin-bottom: 0.875rem;
       }
 
-      &-links {
-        border: 2px solid red;
-      }
-
       &-brief-text {
         font-size: 0.875rem;
+        margin-bottom: 1rem;
+      }
+
+      &-links {
+        display: flex;
+        gap: 1rem;
+
+        a {
+          height: 35px;
+          width: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 10px;
+          border: 2px solid green;
+        }
       }
 
       @include breakpoint-down(medium) {
