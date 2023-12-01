@@ -28,11 +28,6 @@ You can get in touch with me through the 'Contact Me' section. Fill out the form
 
 ## How to Use
 
-1. Clone the repository: `git clone [repository URL]`
-2. Navigate to the project directory: `cd [project folder]`
-3. Open `index.html` in your preferred web browser to view the website locally.
-
-
 ---
 
 Thank you for visiting my personal portfolio website! If you have any questions or would like to collaborate, feel free to reach out.
