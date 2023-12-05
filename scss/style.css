@@ -579,4 +579,5 @@ header .home .social-icons a:hover {
 .contact {
   height: 100vh;
   padding: 3rem 0;
+  border: 2px solid red;
 }/*# sourceMappingURL=style.css.map */
