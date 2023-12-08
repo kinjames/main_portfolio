@@ -580,4 +580,5 @@ header .home .social-icons a:hover {
   height: 100vh;
   padding: 3rem 0;
   border: 2px solid red;
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
