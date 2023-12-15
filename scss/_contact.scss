@@ -12,9 +12,18 @@
     width: 600px;
     height: 100%;
     margin: 4rem 0 2rem;
-    display: flex;
-    // flex-direction: column;
-    gap: 2rem;
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .form-name,
+    .form-email {
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   .map {

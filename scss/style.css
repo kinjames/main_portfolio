@@ -593,8 +593,16 @@ header .home .social-icons a:hover {
   width: 600px;
   height: 100%;
   margin: 4rem 0 2rem;
+}
+.contact .form .contact-form {
   display: flex;
-  gap: 2rem;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.contact .form .form-name,
+.contact .form .form-email {
+  display: flex;
+  flex-direction: column;
 }
 .contact .map {
   width: 100%;
