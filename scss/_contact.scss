@@ -7,22 +7,98 @@
   justify-content: center;
   align-items: center;
 
+  @include breakpoint-down(small) {
+    width: 100%;
+  }
+
   .form {
-    border: 2px solid red;
     width: 600px;
     height: 100%;
     margin: 4rem 0 2rem;
+
+    @include breakpoint-down(small) {
+      width: 100%;
+    }
 
     .contact-form {
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
+
+      @include breakpoint-down(small) {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .form-text {
+        textarea {
+          width: 70%;
+          height: 250px;
+          border: 1px solid #49535d;
+          font-family: inherit;
+          font-size: inherit;
+          padding: 0.5rem;
+
+          @include breakpoint-down(small) {
+            width: 100%;
+          }
+        }
+
+        @include breakpoint-down(small) {
+          width: 90%;
+        }
+      }
+
+      .submit-btn {
+        width: 25%;
+        height: 40px;
+        border-radius: 12px;
+        border: 2px solid #2a61b3;
+        background-color: #fff;
+        color: #2a61b3;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        font-size: 1rem;
+        outline: none;
+
+        @include breakpoint-down(small) {
+          width: 40%;
+        }
+        &:hover {
+          background-color: #2a61b3;
+          color: #fff;
+        }
+      }
+    }
+
+    .form-name,
+    .form-email,
+    .form-text {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+
+      input {
+        width: 70%;
+        height: 40px;
+        border: 1px solid #49535d;
+        border-radius: 10px;
+        font-family: inherit;
+        font-size: inherit;
+        padding-inline: 0.5rem;
+
+        @include breakpoint-down(small) {
+          width: 100%;
+        }
+      }
     }
 
     .form-name,
     .form-email {
-      display: flex;
-      flex-direction: column;
+      @include breakpoint-down(small) {
+        width: 90%;
+      }
     }
   }
 
