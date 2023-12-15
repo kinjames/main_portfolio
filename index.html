@@ -451,11 +451,18 @@
         explore how we can work together to bring your ideas to life
       </p>
       <div class="form">
-        <form id="contactForm" onsubmit="return validateForm()">
-          <label for="email">Name:</label>
-          <input type="email" id="name" name="name" />
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" />
+        <form id="contactForm">
+          <div class="form-name">
+            <label for="email">Name:</label>
+            <input type="email" id="name" name="name" />
+          </div>
+          <div class="form-email">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div class="form-text">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
           <input type="submit" value="Submit" />
         </form>
       </div>
