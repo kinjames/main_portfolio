@@ -580,9 +580,23 @@ header .home .social-icons a:hover {
 }
 
 .contact {
-  height: 100vh;
+  height: 100%;
   padding: 3rem 0;
-  border: 2px solid red;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact .form {
+  border: 2px solid red;
+  width: 600px;
+  height: 100%;
+  margin: 4rem 0 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.contact .map {
+  width: 100%;
+  margin: 3.5rem 0;
 }/*# sourceMappingURL=style.css.map */
