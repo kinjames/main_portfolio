@@ -258,6 +258,7 @@ header .home .social-icons a:hover {
   width: 60%;
   height: 100%;
   border: 2px solid black;
+  display: flex;
 }
 @media (max-width: 39.9375em) {
   .about .image-details .other-details {
