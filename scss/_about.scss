@@ -69,6 +69,12 @@
         .span2 {
           font-weight: 500;
           color: #2a61b3;
+
+          a {
+            text-decoration: none;
+            color: #2a61b3;
+            font-weight: 500;
+          }
         }
       }
     }

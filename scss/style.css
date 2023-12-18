@@ -283,6 +283,12 @@ header .home .social-icons a:hover {
   font-weight: 500;
   color: #2a61b3;
 }
+.about .image-details .other-details .para1 .span2 a,
+.about .image-details .other-details .para2 .span2 a {
+  text-decoration: none;
+  color: #2a61b3;
+  font-weight: 500;
+}
 .about .skills-certification-section {
   width: 100%;
   height: 100%;
