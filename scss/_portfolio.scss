@@ -21,6 +21,12 @@
     grid-template-rows: repeat(2, 1fr);
     grid-row-gap: 3.5rem;
 
+    @include breakpoint-down(medium) {
+      gap: 2rem;
+      align-content: center;
+      justify-items: center;
+    }
+
     @include breakpoint-down(small) {
       display: flex;
       flex-direction: column;
@@ -104,31 +110,53 @@
       }
 
       @include breakpoint-down(medium) {
-        width: 100%;
+        width: 320px;
+        height: 550px;
       }
 
       @include breakpoint-down(small) {
         margin-bottom: 1rem;
+        width: 350px;
+        height: 500px;
       }
     }
 
     .project-1 {
       grid-area: 1 / 1 / 2 / 2;
+
+      @include breakpoint-down(medium) {
+        grid-area: 1 / 1 / 2 / 2;
+      }
     }
     .project-2 {
       grid-area: 1 / 2 / 2 / 3;
+      @include breakpoint-down(medium) {
+        grid-area: 1 / 2 / 2 / 3;
+      }
     }
     .project-3 {
       grid-area: 1 / 3 / 2 / 4;
+      @include breakpoint-down(medium) {
+        grid-area: 2 / 1 / 3 / 2;
+      }
     }
     .project-4 {
       grid-area: 2 / 1 / 3 / 2;
+      @include breakpoint-down(medium) {
+        grid-area: 2 / 2 / 3 / 3;
+      }
     }
     .project-5 {
       grid-area: 2 / 2 / 3 / 3;
+      @include breakpoint-down(medium) {
+        grid-area: 3 / 1 / 4 / 2;
+      }
     }
     .project-6 {
       grid-area: 2 / 3 / 3 / 4;
+      @include breakpoint-down(medium) {
+        grid-area: 3 / 2 / 4 / 3;
+      }
     }
   }
 }
