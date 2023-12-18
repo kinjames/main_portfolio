@@ -9,7 +9,7 @@ let typed = new Typed(".words", {
 const navLinks = document.querySelectorAll(".nav-link");
 function handleClick(event) {
   // Prevent the default behavior of anchor links
-  // event.preventDefault();
+  event.preventDefault();
 
   // Remove active class from all links
   navLinks.forEach((link) => {
@@ -22,5 +22,5 @@ function handleClick(event) {
 
 // Attach click event listeners to all navigation links
 navLinks.forEach((link) => {
-  link.addEventListener("toggle", handleClick);
+  link.addEventListener("click", handleClick);
 });
