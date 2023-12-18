@@ -93,6 +93,7 @@ h2 {
   width: 70px;
   height: 100%;
   margin-left: 1rem;
+  z-index: 100;
 }
 @media (max-width: 39.9375em) {
   .nav-items {
@@ -124,7 +125,7 @@ h2 {
 .nav-items a:hover {
   cursor: pointer;
   background-color: #2a61b3;
-  color: #FFFFFF;
+  color: #ffffff;
   transition: all 0.4s ease-in-out;
 }
 .nav-items .active {
@@ -258,7 +259,6 @@ header .home .social-icons a:hover {
 .about .image-details .other-details {
   width: 60%;
   height: 100%;
-  border: 2px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -277,6 +277,11 @@ header .home .social-icons a:hover {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+.about .image-details .other-details .para1 .span2,
+.about .image-details .other-details .para2 .span2 {
+  font-weight: 500;
+  color: #2a61b3;
 }
 .about .skills-certification-section {
   width: 100%;

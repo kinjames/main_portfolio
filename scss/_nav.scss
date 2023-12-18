@@ -1,62 +1,58 @@
 // NAV SECTION
 
 .nav-items {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.675rem;
+  width: 70px;
+  height: 100%;
+  margin-left: 1rem;
+  z-index: 100;
+
+  @include breakpoint-down(small) {
     position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    flex-direction: row;
+    gap: 1.25rem;
+    align-items: flex-end;
+    width: 100%;
+    bottom: 1%;
+    margin-left: unset;
+  }
+
+  a {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.675rem;
-    width: 70px;
-    height: 100%;
-    margin-left: 1rem;
+    border-radius: 50%;
+    background-color: #f3f5f7;
+    color: #49535d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    height: 50px;
+    width: 50px;
 
     @include breakpoint-down(small) {
-        position: fixed;
-        left: 50%;
-        transform: translate(-50%);
-        flex-direction: row;
-        gap: 1.25rem;
-        align-items: flex-end;
-        width: 100%;
-        bottom: 1%;
-        margin-left: unset;
+      // border-radius: unset;
     }
 
-    
-    a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        background-color: #f3f5f7;
-        color: #49535d;
-        box-shadow: 0 4px 8px rgba(0,0,0,.3);
-        height: 50px;
-        width: 50px;
-        
-        
-        @include breakpoint-down(small){
-            // border-radius: unset;
-        }
-
-        i{
-            font-size: 1.15rem;
-        }
+    i {
+      font-size: 1.15rem;
+    }
 
     &:hover {
-            cursor: pointer;
-            background-color: #2a61b3;
-            color: #FFFFFF;
-            transition: all .4s ease-in-out;
-        }
+      cursor: pointer;
+      background-color: #2a61b3;
+      color: #ffffff;
+      transition: all 0.4s ease-in-out;
     }
-        
-    .active {
-            color: #fff;
-            background-color: #2a61b3;
-        }
-    
+  }
+
+  .active {
+    color: #fff;
+    background-color: #2a61b3;
+  }
 }
-
-
