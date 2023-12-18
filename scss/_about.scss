@@ -26,6 +26,7 @@
     @include breakpoint-down(small) {
       flex-direction: column;
       height: 100%;
+      gap: 3rem;
     }
 
     .my-image {
@@ -53,6 +54,17 @@
 
       @include breakpoint-down(small) {
         width: 30vh;
+        flex-direction: column;
+        gap: 2rem;
+        width: 90%;
+        align-items: flex-start;
+      }
+
+      .para1,
+      .para2 {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
       }
     }
   }
