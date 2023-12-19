@@ -133,7 +133,7 @@ h2 {
   background-color: #2a61b3;
 }
 
-header {
+.header-section {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -141,45 +141,45 @@ header {
   align-items: center;
   background-image: url("../images/cool-background.png");
 }
-header .home h1 {
+.header-section .home h1 {
   font-size: 4rem;
   color: #49535d;
   letter-spacing: 0.6px;
   font-weight: 600;
 }
 @media (max-width: 63.9375em) {
-  header .home h1 {
+  .header-section .home h1 {
     font-size: 3rem;
   }
 }
 @media (max-width: 39.9375em) {
-  header .home h1 {
+  .header-section .home h1 {
     font-size: 2.2rem;
   }
 }
-header .home p {
+.header-section .home p {
   margin-bottom: 1.25rem;
   font-size: 1.5rem;
   font-weight: 500;
 }
 @media (max-width: 39.9375em) {
-  header .home p {
+  .header-section .home p {
     font-size: 1.15rem;
   }
 }
-header .home p .words {
+.header-section .home p .words {
   border-bottom: 4px solid #2a61b3;
 }
-header .home .social-icons {
+.header-section .home .social-icons {
   display: flex;
   gap: 1.5rem;
 }
 @media (max-width: 39.9375em) {
-  header .home .social-icons {
+  .header-section .home .social-icons {
     gap: 1rem;
   }
 }
-header .home .social-icons a {
+.header-section .home .social-icons a {
   color: #49535d;
   transition: all 0.4s ease-in-out;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -192,23 +192,23 @@ header .home .social-icons a {
   border-radius: 50%;
 }
 @media (max-width: 39.9375em) {
-  header .home .social-icons a {
+  .header-section .home .social-icons a {
     width: 35px;
     height: 35px;
   }
 }
-header .home .social-icons a i {
+.header-section .home .social-icons a i {
   font-size: 1.5rem;
 }
 @media (max-width: 39.9375em) {
-  header .home .social-icons a i {
+  .header-section .home .social-icons a i {
     font-size: 1.15rem;
   }
 }
-header .home .social-icons a:hover {
+.header-section .home .social-icons a:hover {
   transform: scale(1.2);
   background-color: #2a61b3;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .about {
